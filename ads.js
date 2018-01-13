@@ -8,20 +8,13 @@ var ads = [
   '<a href="https://get.uber.com/invite/michaels41699ue" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/uber.png" style="max-width: 728px; width: 100%;"></a>'
 ]
 
-cardoneshop.jpg
-cardoneuniversity.jpg
-amazongiftcards.png
-squarecash.png
-taskrabbit.png
-uber.png
-
 var randomNumber = Math.floor(Math.random() * (ads.length));
 
 function insertBefore(el, referenceNode) {
     referenceNode.parentNode.insertBefore(el, referenceNode);
 }
 
-// example
+// Handler that holds images
 var newEl = document.createElement('div');
 newEl.innerHTML = ads[randomNumber];
 
