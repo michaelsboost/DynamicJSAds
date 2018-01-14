@@ -16,7 +16,8 @@ function insertBefore(el, referenceNode) {
 }
 
 // Handler that holds images
-var newEl = document.createElement('div.ads-section');
+var newEl = document.createElement('div');
+newEl.className = "ads-section";
 newEl.style.textAlign = "center";
 newEl.innerHTML = ads[randomNumber];
 
