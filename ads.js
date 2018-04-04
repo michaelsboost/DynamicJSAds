@@ -6,7 +6,8 @@ var ads = [
   '<a href="https://www.paypal.com/us/webapps/mpp/invite?token=kepXqLE2LN0" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/paypal.svg" style="max-width: 728px; width: 100%;"></a>',
   '<a href="https://cash.me/app/HMRRQXC" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/squarecash.svg" style="max-width: 728px; width: 100%;"></a>',
   '<a href="https://www.taskrabbit.com/r/360a3/try" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/taskrabbit.svg" style="max-width: 728px; width: 100%;"></a>',
-  '<a href="https://get.uber.com/invite/michaels41699ue" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/uber.svg" style="max-width: 728px; width: 100%;"></a>'
+  '<a href="https://get.uber.com/invite/michaels41699ue" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/uber.svg" style="max-width: 728px; width: 100%;"></a>',
+  '<a href="http://animatron.com/wave?tap_a=19272-291192&tap_s=245506-aed048" target="_blank"><img src="https://michaelsboost.github.io/DynamicJSAds/images/animatronad.png" style="max-width: 728px; width: 100%;"></a>'
 ]
 
 var randomNumber = Math.floor(Math.random() * (ads.length));
